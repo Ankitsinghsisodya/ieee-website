@@ -22,7 +22,7 @@ const About: React.FC = () => {
         
         <div className="lg:max-w-2xl p-[7%] mx-auto  text-center lg:text-left ">
           <h2  className="text-4xl  w-[17rem]  text-skyBlue h-[2rem] font-bold mb-4 mx-auto ">Who are we?</h2>
-          <p className=" text-white mt-6  mb-6  text-2xl font-semibold h-[4.25rem]">
+          <p className=" text-white mt-6  mb-6  text-2xl font-semibold h-[4.5rem">
             At IEEE, we believe in disseminating what  we know and learning what we don't.
           </p>
           <p className=" opacity-80 font-light leading-relaxed mb-6">
@@ -34,8 +34,8 @@ const About: React.FC = () => {
             electrical, electronics, telecommunication, and computing with over 1100 active
             standards.
           </p>
-          <button type="button" className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-6 rounded-full shadow-lg transition-all duration-300">
-            Meet our team
+          <button type="button" className="bg-gradient-to-r bg-opacity-80 from-[#1b5786] to-[#12436c]   hover:bg-indigo-700 text-white font-medium py-0 px-6 rounded-full  transition-all duration-300  border-2 border-solid border-[#00aff5] ">
+            Meet our team &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &#x203A;
           </button>
         </div>
       </div>

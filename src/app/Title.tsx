@@ -7,12 +7,11 @@ interface TitleProps {
 const Title: React.FC<TitleProps> = ({ title }) => {
   return (
     <div className="bg-gradient-to-bl from-[#320c35] via-[#03152c] to-[#000818] text-white flex flex-col items-center">
-      {/* Header */}
+      
       <div
         className="w-full bg-cover bg-center h-[10rem] flex items-center justify-center"
         style={{ backgroundImage: `url('/title.svg')` }}
       >
-        {/* Title with transparent gradient background */}
         <h1
           className="text-3xl font-montserrat border-l-8 border-[#494cff] md:text-5xl font-bold px-4 py-2 rounded"
           style={{
